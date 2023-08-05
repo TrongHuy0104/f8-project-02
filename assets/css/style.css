@@ -706,3 +706,87 @@ button {
 .blog .dot + .dot {
     margin-left: 6px;
 }
+
+/* Footer */
+.footer {
+    padding: 96px 0 0;
+    background-color: #2e2100;
+}
+
+.footer .row {
+    display: flex;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer .col {
+    width: 21.6%;
+}
+
+.footer .col:first-child {
+    width: 35%;
+}
+
+.footer .col .desc {
+    width: 267px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+    margin-top: 18px;
+}
+
+.footer .col .socials {
+    margin-top: 18px;
+    display: flex;
+    gap: 0 18px;
+}
+
+.footer .col .list {
+    margin-top: 28px;
+}
+
+.footer .col .title {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.75;
+    position: relative;
+}
+
+.footer .col .title::after {
+    content: "";
+    height: 1px;
+    background-color: #59554b;
+    position: absolute;
+    left: 0;
+    right: -48px;
+    bottom: -14px;
+}
+
+.footer .col .item a {
+    display: inline-block;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+    margin-top: 12px;
+}
+
+.footer .col .item strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer .copyright {
+    padding: 28px 0;
+}
+
+.footer .copyright p {
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
